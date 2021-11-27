@@ -1,0 +1,41 @@
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  background-color: #cfe0e8;
+  list-style: none;
+  margin: 20px 50px;
+  padding: 20px 20px;
+  border-radius: 8px;
+}
+
+@media(min-width: 800px){
+  ul{
+    margin: 20px 70px;
+  }
+}
+
+@media(min-width: 1000px){
+  ul{
+    margin: 20px 130px;
+  }
+}
+
+@media(min-width: 1200px){
+  ul{
+    margin: 20px 190px;
+  }
+}
+
+@media(min-width: 1400px){
+  ul{
+    margin: 20px 200px;
+  }
+}
+
+/* ul {
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
+  } */

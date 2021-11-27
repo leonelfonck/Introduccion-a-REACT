@@ -1,7 +1,23 @@
-.App {
+ .App {
+   display: flex;
+   flex-direction: column;
+   background-color: #b7d7e8;
   text-align: center;
+ /* font-family: 'Roboto', sans-serif;  */
+ font-family: 'Ubuntu', sans-serif; 
+ border-radius: 5px;
 }
+body{
+  background-color: #b7d7e8;
+}
+/* HEX: #cfe0e8
+HEX: #b7d7e8
+HEX: #87bdd8
+HEX: #daebe8 */
 
+
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
