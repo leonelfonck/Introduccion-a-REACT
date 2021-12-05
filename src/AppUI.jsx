@@ -12,6 +12,7 @@ import { TodoForm } from "./modal/TodoForm";
 //,"homepage": "https://miguelito_feliz.github.io/introduccion" //agregar al package.json
 //,"predeploy" : "npm run build" //para que se ejecute antes del deploy
 //,"deploy": "gh-pages -d build" //agregar en los scripts
+//ejecutar dependiendo la ruta= git remote add origin https://github.com/leonelfonck/movies.git 
  //se ejecuta npm run deploy
  //git add -A
  //git commit -m "Deploy"
