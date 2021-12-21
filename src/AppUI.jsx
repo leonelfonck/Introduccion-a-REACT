@@ -8,17 +8,6 @@ import { TodoContext } from "./utils/TodoContext";
 import { Modal } from "./modal/Modal";
 import { TodoForm } from "./modal/TodoForm";
 
-//npm install --save-dev gh-pages //para subir a github pages
-//,"homepage": "https://miguelito_feliz.github.io/introduccion" //agregar al package.json
-//,"predeploy" : "npm run build" //para que se ejecute antes del deploy
-//,"deploy": "gh-pages -d build" //agregar en los scripts
-//ejecutar dependiendo la ruta= git remote add origin https://github.com/leonelfonck/movies.git 
- //se ejecuta npm run deploy
- //git add -A
- //git commit -m "Deploy"
- //git push
-
-
 export function AppUI() {
   const {
     loading,
@@ -53,7 +42,7 @@ export function AppUI() {
       </TodoList>
       <CreateTodoButton setOpenModal={setOpenModal} />
 
-      {!!openModal && (
+      {openModal && (
         <Modal>
           <TodoForm></TodoForm>
         </Modal>

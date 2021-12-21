@@ -3,7 +3,7 @@ import './TodoItem.css';
 import { RiCheckboxCircleFill,RiDeleteBin6Line } from 'react-icons/ri';
 
 
-function TodoItem(props) {
+export function TodoItem(props) {
 
   return (
     <li className="TodoItem">
@@ -25,5 +25,3 @@ function TodoItem(props) {
     </li>
   );
 }
-
-export { TodoItem };

@@ -9,7 +9,7 @@ function CreateTodoButton({setOpenModal}) {
   }
  
   return (
-    <button 
+    <button
     className="CreateTodoButton"
     onClick={()=>onClickButton()}
     >

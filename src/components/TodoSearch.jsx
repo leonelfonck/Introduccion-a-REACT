@@ -11,15 +11,12 @@ function TodoSearch() {
   }
 
   return (
-    <>
     <input 
     className="TodoSearch" 
     placeholder="Filtrar" 
     value={searchValue}
     onChange={onSearchValueChange}
     />
-    <p>{searchValue}</p>
-    </>
   );
 }
 
